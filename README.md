@@ -25,7 +25,10 @@ Please refer to the official Docker documentation for installation instructions 
 ## Quick Start
 
 ```bash
-docker run -it ghcr.io/boomcan90/guildcon-recon:latest
+git clone https://github.com/boomcan90/guildcon-recon.git
+cd guildcon-recon
+docker build -t guildcon-recon .
+docker run -it guildcon-recon
 ```
 
 
