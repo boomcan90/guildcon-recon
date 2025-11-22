@@ -2,6 +2,26 @@
 
 A Docker container with a comprehensive set of security testing and reconnaissance tools pre-installed and ready to use. This container is specifically prepared for the Bug Bounty workshop at GuildCon.
 
+## Docker Installation
+
+### macOS
+
+Download and install Docker Desktop for Mac:
+- **Download**: https://www.docker.com/products/docker-desktop/
+- Or install via Homebrew: `brew install --cask docker`
+
+### Windows
+
+Download and install Docker Desktop for Windows:
+- **Download**: https://www.docker.com/products/docker-desktop/
+- Requires Windows 10 64-bit: Pro, Enterprise, or Education (Build 15063 or higher) with Hyper-V and Containers Windows features enabled
+
+### Linux
+
+Please refer to the official Docker documentation for installation instructions specific to your Linux distribution:
+
+- **Docker Installation Guide**: https://docs.docker.com/engine/install/
+
 ## Quick Start
 
 ```bash
